@@ -2,113 +2,138 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Live Riddles • 24/7</title>  <!-- Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">  <style>
+  <title>24/7 Math Riddle Live</title>  <!-- Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">  <style>
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
       height: 100vh;
-      background: radial-gradient(circle at top, #0b0f1a, #000);
+      background: radial-gradient(circle at top, #14001f, #040008);
       font-family: 'Poppins', sans-serif;
-      color: #e9faff;
+      color: #ffffff;
       display: flex;
       justify-content: center;
       align-items: center;
       overflow: hidden;
     }
 
-    /* VERTICAL FRAME (9:16) */
+    /* Vertical 9:16 Frame */
     .frame {
-      width: 390px;
-      height: 780px;
-      max-height: 95vh;
-      background: rgba(255,255,255,0.04);
-      border-radius: 32px;
-      padding: 28px 22px;
+      width: 440px;
+      height: 880px;
+      max-height: 96vh;
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+      border-radius: 40px;
+      padding: 30px 26px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      box-shadow: 0 0 80px rgba(0,255,255,0.18);
-      backdrop-filter: blur(18px);
-      animation: pulseGlow 6s infinite alternate;
+      backdrop-filter: blur(24px);
+      box-shadow:
+        0 0 70px rgba(255, 0, 255, 0.35),
+        0 0 140px rgba(0, 255, 255, 0.25);
+      animation: glowPulse 9s infinite alternate;
     }
 
-    @keyframes pulseGlow {
-      from { box-shadow: 0 0 40px rgba(0,255,255,0.12); }
-      to { box-shadow: 0 0 90px rgba(0,255,255,0.28); }
+    @keyframes glowPulse {
+      from {
+        box-shadow:
+          0 0 50px rgba(255, 0, 255, 0.35),
+          0 0 100px rgba(0, 255, 255, 0.25);
+      }
+      to {
+        box-shadow:
+          0 0 100px rgba(255, 0, 255, 0.55),
+          0 0 180px rgba(0, 255, 255, 0.35);
+      }
     }
 
-    /* HEADER */
+    /* Header */
     .header {
       text-align: center;
       font-family: 'Orbitron', sans-serif;
-      letter-spacing: 3px;
-      font-size: 1.1rem;
-      opacity: 0.9;
+      font-size: 1.6rem;
+      letter-spacing: 4px;
+      color: #ff86ff;
+      text-shadow: 0 0 14px rgba(255,134,255,0.9);
     }
 
     .sub {
-      font-size: 0.7rem;
-      letter-spacing: 2px;
-      opacity: 0.5;
-      margin-top: 4px;
+      font-size: 0.85rem;
+      letter-spacing: 3px;
+      margin-top: 6px;
+      color: #bfffff;
+      opacity: 0.75;
     }
 
-    /* VISUALIZER PLACEHOLDER */
+    /* Visualizer Bar */
     .visual {
-      height: 110px;
-      margin: 18px 0 10px;
-      background: linear-gradient(90deg, rgba(0,255,255,0.2), rgba(0,255,255,0.05), rgba(0,255,255,0.2));
-      border-radius: 18px;
-      animation: moveBg 6s linear infinite;
+      height: 140px;
+      margin: 24px 0 16px;
+      border-radius: 24px;
+      background: linear-gradient(
+        90deg,
+        rgba(255,0,255,0.4),
+        rgba(0,255,255,0.3),
+        rgba(255,0,255,0.4)
+      );
+      background-size: 300% 300%;
+      animation: waveMove 7s linear infinite;
+      box-shadow: inset 0 0 30px rgba(255,255,255,0.25);
     }
 
-    @keyframes moveBg {
-      from { background-position: 0% 50%; }
-      to { background-position: 200% 50%; }
+    @keyframes waveMove {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 300% 50%; }
     }
 
-    /* RIDDLE AREA */
+    /* Riddle Box */
     .riddle-box {
       flex: 1;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 20px;
-      font-size: 1.35rem;
-      line-height: 1.6;
-      transition: opacity 0.8s ease, transform 0.8s ease;
+      padding: 24px;
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.65;
+      color: #ffffff;
+      text-shadow: 0 0 8px rgba(255,255,255,0.35);
+      transition: opacity 0.7s ease, transform 0.7s ease;
     }
 
-    /* TIMER */
+    /* Timer */
     .timer {
       text-align: center;
       font-family: 'Orbitron', sans-serif;
-      font-size: 2.6rem;
-      color: #7fffd4;
-      text-shadow: 0 0 12px rgba(127,255,212,0.8);
+      font-size: 3.6rem;
+      color: #7dfff2;
+      text-shadow: 0 0 20px rgba(125,255,242,1);
     }
 
     .timer-label {
       text-align: center;
-      font-size: 0.7rem;
-      letter-spacing: 3px;
-      opacity: 0.5;
+      font-size: 0.8rem;
+      letter-spacing: 4px;
       margin-top: 6px;
+      color: #e0ffff;
+      opacity: 0.65;
     }
 
-    /* FOOTER */
+    /* Footer */
     .footer {
       text-align: center;
-      font-size: 0.65rem;
-      opacity: 0.4;
-      margin-top: 12px;
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      color: #ffffff;
+      opacity: 0.5;
+      margin-top: 14px;
     }
   </style></head>
 <body>  <div class="frame"><div class="header">
-  LIVE RIDDLES
-  <div class="sub">SOLVE • CHAT • STAY</div>
+  MATH RIDDLES LIVE
+  <div class="sub">THINK • SOLVE • TYPE</div>
 </div>
 
 <div class="visual"></div>
@@ -116,14 +141,18 @@
 <div class="riddle-box" id="riddle">Loading riddles…</div>
 
 <div>
-  <div class="timer" id="timer">05:00</div>
+  <div class="timer" id="timer">01:30</div>
   <div class="timer-label">NEXT RIDDLE IN</div>
 </div>
 
-<div class="footer">Answer in chat 👇</div>
+<div class="footer">Solve it in chat 👇 New puzzle every 90 seconds</div>
 
   </div>  <script>
-    const DURATION = 300; // 5 minutes
+    /* CHANGE THIS VALUE IF NEEDED
+       90 = 1.5 minutes
+       120 = 2 minutes */
+    const DURATION = 90;
+
     let timeLeft = DURATION;
     let riddles = [];
     let index = 0;
@@ -139,14 +168,14 @@
 
     function showRiddle() {
       riddleEl.style.opacity = 0;
-      riddleEl.style.transform = 'translateY(10px)';
+      riddleEl.style.transform = 'translateY(16px)';
 
       setTimeout(() => {
         riddleEl.textContent = riddles[index];
         riddleEl.style.opacity = 1;
         riddleEl.style.transform = 'translateY(0)';
         index = (index + 1) % riddles.length;
-      }, 600);
+      }, 700);
 
       timeLeft = DURATION;
     }
@@ -158,16 +187,17 @@
     }, 1000);
 
     fetch('riddles.txt')
-      .then(r => r.text())
-      .then(t => {
-        riddles = t.split('\n').map(x => x.trim()).filter(Boolean);
+      .then(res => res.text())
+      .then(text => {
+        riddles = text.split('\n').map(r => r.trim()).filter(Boolean);
         if (!riddles.length) {
           riddleEl.textContent = 'No riddles found.';
           return;
         }
         showRiddle();
       })
-      .catch(() => riddleEl.textContent = 'Failed to load riddles.txt');
-
+      .catch(() => {
+        riddleEl.textContent = 'Failed to load riddles.txt';
+      });
   </script></body>
 </html>
