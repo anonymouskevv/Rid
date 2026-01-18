@@ -1,6 +1,1097 @@
+I am 1 year old. My father is 2 years old. After 10 years, how old will my father be?
+
+A number becomes double when you add 10 to it. What is the number?
+
+I have ₹50. I give half to my friend. Then I give ₹10 more. How much money do I have left?
+
+If 2 pens cost ₹10, how much do 6 pens cost?
+
+A train travels 60 km in 1 hour. How far will it travel in 30 minutes?
+
+What is the next number: 2, 4, 8, 16, ?
+
+I think of a number. I multiply it by 3 and get 30. What is the number?
+
+If today is Monday, what day will it be after 10 days?
+
+A shopkeeper buys a pen for ₹5 and sells it for ₹7. What is his profit?
+
+What is half of 100 plus 10?
+
+If 5 apples cost ₹25, how much does 1 apple cost?
+
+What number comes next: 1, 4, 9, 16, ?
+
+I have 10 chocolates. I give 3 to my friend. Then I buy 5 more. How many chocolates do I have?
+
+If a car takes 2 hours to go 100 km, how long will it take to go 50 km?
+
+What is 15 × 2 − 10?
+
+A clock shows 3:00. What angle is between the hour and minute hand?
+
+If you add me to myself, you get 20. What number am I?
+
+There are 12 months in a year. How many months have 28 days?
+
+If 1 kg apples cost ₹100, what is the cost of 500 grams?
+
+What number is missing: 5, 10, 15, ?, 25
+
+I am thinking of an even number between 1 and 10. What are the possible numbers?
+
+If you divide 20 by half, what do you get?
+
+A man has 3 shirts and 2 pants. How many different outfits can he make?
+
+If today is Sunday, what day was it 3 days ago?
+
+What is the smallest two-digit number?
+
+What is 9 × 9 − 9?
+
+If 4 people share ₹100 equally, how much does each get?
+
+What number comes next: 100, 90, 80, ?
+
+If one notebook costs ₹12, how much do 5 notebooks cost?
+
+I am a number. When divided by 5, I give remainder 0. Name one possible number.
+
+What is double of 25 minus 10?
+
+A boy reads 10 pages in 1 hour. How many pages in 3 hours?
+
+What is the value of 0 × 100?
+
+If a rectangle has length 10 and width 5, what is its area?
+
+What number is greater: 3/4 or 1/2?
+
+If you subtract 20 from a number, you get 30. What is the number?
+
+What is the next number: 1, 1, 2, 3, 5, ?
+
+If a movie starts at 2:15 PM and lasts 2 hours, when does it end?
+
+What is 50% of 200?
+
+A basket has 5 red balls and 5 blue balls. How many balls are there total?
+
+What number comes before 100?
+
+If you add all digits of 123, what do you get?
+
+What is the cube of 2?
+
+If a pen costs ₹10, how many pens can you buy for ₹70?
+
+What is the value of 100 − (20 + 30)?
+
+What number comes next: 2, 6, 12, 20, ?
+
+If you have ₹500 and spend ₹275, how much money is left?
 
 I speak without a mouth and hear without ears. What am I?
 
 The more you take, the more you leave behind. What is it?
 
 What has keys but can’t open locks?
+
+I am 5 years old. My sister is twice my age. When I am 20, how old will my sister be?
+
+A number multiplied by 5 gives 50. What is the number?
+
+If you have 20 rupees and spend 3 rupees every day, how many days will the money last?
+
+What is the next number: 10, 20, 30, 40, ?
+
+If a pencil costs ₹2, how much will 15 pencils cost?
+
+A man walks 1 km north, then 1 km east. How far is he from the starting point?
+
+What is 100 divided by 4?
+
+If today is Friday, what day will it be after 15 days?
+
+A book costs ₹120. You get a discount of ₹20. How much do you pay?
+
+What number comes next: 3, 6, 9, 12, ?
+
+If you add 7 to a number, you get 20. What is the number?
+
+A shopkeeper has 50 apples. He sells 18. How many are left?
+
+What is the square of 5?
+
+If one chocolate costs ₹5, how many chocolates can you buy with ₹45?
+
+What is half of 60?
+
+What comes next: 1, 3, 6, 10, ?
+
+A train moves at 40 km/h. How far will it go in 2 hours?
+
+What number comes before 1?
+
+If a pen costs ₹8, what is the cost of 3 pens?
+
+What is 7 × 6?
+
+A boy has 12 marbles. He gives 4 to his friend. How many remain?
+
+What is the next number: 5, 10, 20, 40, ?
+
+If you divide 36 by 6, what do you get?
+
+A class has 25 students. 5 leave. How many remain?
+
+What is the value of 10²?
+
+If you buy 4 kg rice at ₹50 per kg, what is the total cost?
+
+What is the next number: 100, 95, 90, ?
+
+If a movie starts at 6:30 PM and lasts 1 hour, when does it end?
+
+What is 20% of 100?
+
+A rectangle has length 8 and width 4. What is its area?
+
+What number is missing: 2, 4, ?, 8, 10
+
+If you add all digits of 246, what do you get?
+
+What is the smallest odd number?
+
+If 6 people share ₹180 equally, how much does each get?
+
+What is the value of 15 + 15 ÷ 3?
+
+What comes next: 2, 5, 10, 17, ?
+
+If a bus travels 30 km in 1 hour, how far in 3 hours?
+
+What is double of 18?
+
+A clock shows 12:00. What angle is formed?
+
+What is the next number: 9, 18, 27, ?
+
+If you subtract 15 from a number and get 25, what is the number?
+
+How many minutes are there in 2 hours?
+
+What is 8 × 8?
+
+If today is Wednesday, what day was it 7 days ago?
+
+What is the next number: 1, 4, 7, 10, ?
+
+A man earns ₹500 per day. How much does he earn in 5 days?
+
+What is the value of 50 ÷ 5?
+
+If a pen costs ₹10 and a book costs ₹40, what is the total cost?
+
+What is half of 200?
+
+What comes next: 11, 22, 33, ?
+
+If you multiply a number by 4, you get 36. What is the number?
+
+How many sides does a square have?
+
+What is the next number: 7, 14, 21, ?
+
+A farmer has 10 cows. He sells 3. How many are left?
+
+What is 90 minus 45?
+
+If 1 dozen bananas cost ₹60, what is the cost of 1 banana?
+
+What comes next: 1, 2, 4, 8, ?
+
+How many hours are there in a day?
+
+What is 5³?
+
+If a bag weighs 10 kg and you remove 3 kg, how much is left?
+
+What is the next number: 2, 3, 5, 7, ?
+
+If a child saves ₹5 every day, how much in 10 days?
+
+What is the value of 1000 ÷ 10?
+
+What number comes after 999?
+
+What is 30% of 200?
+
+If a train takes 1 hour to travel 60 km, how long for 120 km?
+
+What is the next number: 4, 9, 16, 25, ?
+
+What is the sum of first 5 natural numbers?
+
+If you buy 3 notebooks at ₹25 each, what is total cost?
+
+What is half of 1 hour?
+
+What comes next: 6, 12, 18, ?
+
+If a rope is 20 meters long and cut into two equal parts, how long is each?
+
+What is the value of 2 × (10 + 5)?
+
+If today is Sunday, what day will it be after 21 days?
+
+What number comes before 50?
+
+What is 11 × 11?
+
+If a box has 24 balls and you remove 6, how many remain?
+
+What is the next number: 1, 2, 3, 5, 8, ?
+
+If a pen costs ₹4, how many pens can you buy with ₹36?
+
+What is the value of 60 ÷ 3?
+
+How many zeros are there in 1000?
+
+What comes next: 20, 40, 80, ?
+
+If you add 25 to a number, you get 75. What is the number?
+
+What is 7 × 5?
+
+How many days are there in a week?
+
+What is the square root of 49?
+
+If a movie starts at 4:00 PM and lasts 90 minutes, when does it end?
+
+What comes next: 5, 15, 45, ?
+
+What is 100 − 60?
+
+If you buy 2 kg sugar at ₹40 per kg, what is the cost?
+
+What is the next number: 30, 27, 24, ?
+
+If a boy runs 5 km every day, how far in 4 days?
+
+What is half of 50 plus 10?
+
+What is the next number: 2, 4, 6, 8, ?
+
+If today is Monday, what day will it be after 14 days?
+
+What is 9 × 7?
+
+If you divide 81 by 9, what do you get?
+
+What comes next: 1, 5, 25, ?
+
+What is the value of 200 ÷ 4?
+
+If a pen costs ₹6, how much for 7 pens?
+
+What is the next number: 10, 9, 8, ?
+
+If you subtract 30 from 100, what do you get?
+
+What is the value of 3² + 4²?
+
+How many months are there in a year?
+
+What comes next: 2, 10, 30, ?
+
+If you walk 2 km east and 2 km west, how far from start?
+
+What is 6 × 9?
+
+If a book has 100 pages and you read 20, how many left?
+
+What is the next number: 1, 3, 9, 27, ?
+
+What is the value of 500 ÷ 5?
+
+If today is Friday, what day will it be after 7 days?
+
+What is 80% of 50?
+
+What comes next: 100, 200, 300, ?
+
+If a man earns ₹1000 per week, how much in 4 weeks?
+
+What is the value of 12 × 5?
+
+How many sides does a triangle have?
+
+What is the next number: 50, 45, 40, ?
+
+If you add all digits of 999, what do you get?
+
+What is half of 90?
+
+What comes next: 3, 9, 27, ?
+
+If a pen costs ₹5, how much for 20 pens?
+
+What is 7²?
+
+If a rope is 12 m long and cut into 3 equal parts, how long is each?
+
+What is the next number: 4, 8, 12, ?
+
+If today is Thursday, what day was it 2 days ago?
+
+What is 200 minus 75?
+
+What comes next: 1, 2, 6, 24, ?
+
+If you save ₹10 per day, how much in 15 days?
+
+What is the value of 8 + 8 ÷ 4?
+
+How many hours are there in 2 days?
+
+What comes next: 5, 25, 125, ?
+
+If a book costs ₹150 and you pay ₹200, how much change do you get?
+
+What is 9 × 8?
+
+If a class has 40 students and 10 are absent, how many present?
+
+What is the next number: 60, 50, 40, ?
+
+What is the value of 100 ÷ 25?
+
+If you add 40 to a number, you get 90. What is the number?
+
+A boy is 5 years old. His sister is 10 years older than him. When the boy is 20, how old will his sister be?
+
+Ravi is twice as old as Amit. After 10 years, Ravi will be 30. How old is Amit now?
+
+A father is 36 years old and his son is 6 years old. After how many years will the father be twice the son’s age?
+
+A mother is 28 years older than her son. After 4 years, she will be twice his age. What is the son’s current age?
+
+A man is 24 years old. His sister is half his age. When the man is 40, how old will his sister be?
+
+Two brothers have an age difference of 6 years. The younger is 10. How old is the elder?
+
+A father was 30 years old when his son was born. How old will the father be when the son is 15?
+
+A girl is 3 times as old as her brother. If her brother is 6, how old is the girl?
+
+A man is 4 times as old as his son. After 10 years, he will be twice as old as his son. What is the son’s present age?
+
+A father is 5 times his son’s age. After 20 years, he will be twice his son’s age. What is the son’s age now?
+
+A boy’s age is one-third of his father’s age. The sum of their ages is 48. How old is the boy?
+
+A man is 30 years older than his wife. If the wife is 25, how old is the man?
+
+A mother is 21 years older than her daughter. If the daughter is 7, how old is the mother?
+
+A father and son together are 50 years old. The father is 30 years older than the son. How old is the son?
+
+A man’s age is 3 times his son’s age. After 12 years, it will be twice his son’s age. Find the son’s age now.
+
+Two friends have a total age of 40 years. One is 4 years older than the other. What are their ages?
+
+A boy is 12 years younger than his sister. If the sister is 20, how old is the boy?
+
+A father’s age is double his son’s age. The difference between their ages is 20. How old is the son?
+
+A mother is 4 times as old as her child. After 10 years, she will be twice as old. Find the child’s age.
+
+A man is 15 years older than his brother. If the brother is 20, how old is the man?
+
+A father and daughter have a combined age of 60. The father is 40 years older. How old is the daughter?
+
+A boy’s age is one-fifth of his grandfather’s age. The grandfather is 65. How old is the boy?
+
+A man is twice as old as his wife. If the wife is 18, how old is the man?
+
+A father is 24 years older than his son. If the son is 8, how old is the father?
+
+A woman is 10 years older than her sister. If the sister is 15, how old is the woman?
+
+A boy is 4 years younger than his brother. The brother is 16. How old is the boy?
+
+A father’s age is 5 times his daughter’s age. If the daughter is 6, how old is the father?
+
+A man is 12 years older than his cousin. The cousin is 14. What is the man’s age?
+
+A mother is 30 years old when her son is born. How old is the mother when the son is 10?
+
+A father is 28 years older than his son. If the son is 12, how old is the father?
+
+Two sisters differ in age by 7 years. The younger is 9. How old is the elder?
+
+A man is 10 years older than his wife. If the wife is 22, how old is the man?
+
+A boy is half as old as his father. The father is 36. How old is the boy?
+
+A father’s age plus son’s age is 54. The father is twice as old. How old is the son?
+
+A man is 20 years older than his son. If the son is 15, how old is the man?
+
+A woman is 3 years older than her brother. The brother is 17. How old is the woman?
+
+A father is 3 times as old as his son. The son is 10. How old is the father?
+
+A boy is 8 years younger than his sister. The sister is 18. How old is the boy?
+
+A man is 6 times as old as his son. The son is 5. How old is the man?
+
+A mother is 25 years older than her child. The child is 5. How old is the mother?
+
+A father is 4 times as old as his son. After 20 years, he will be twice as old. What is the son’s age now?
+
+A man is 14 years older than his sister. If the sister is 16, how old is the man?
+
+A boy’s age plus his sister’s age is 25. The sister is 15. How old is the boy?
+
+A father is 10 years older than the mother. The mother is 30. How old is the father?
+
+A man is 18 years older than his brother. The brother is 12. How old is the man?
+
+A mother’s age is double her daughter’s age. If the daughter is 14, how old is the mother?
+
+A father and son differ in age by 25 years. If the son is 10, how old is the father?
+
+A man is 7 years older than his cousin. The cousin is 13. How old is the man?
+
+A boy is one-fourth his father’s age. The father is 40. How old is the boy?
+
+A woman is 9 years older than her sister. The sister is 21. How old is the woman?
+
+A father’s age is triple his son’s age. The son is 8. How old is the father?
+
+A mother is 32 years older than her child. The child is 6. How old is the mother?
+
+A man is 5 years younger than his brother. The brother is 25. How old is the man?
+
+A boy’s age is one-third his sister’s age. The sister is 18. How old is the boy?
+
+A father is 20 years older than his daughter. The daughter is 15. How old is the father?
+
+A man is 2 times older than his wife. The wife is 20. How old is the man?
+
+A child is 10 years younger than his cousin. The cousin is 18. How old is the child?
+
+A mother is 6 times as old as her daughter. The daughter is 5. How old is the mother?
+
+A father’s age is double the sum of his son’s and daughter’s ages. The son is 10 and daughter is 5. How old is the father?
+
+A man is 4 years older than his sister. The sister is 26. How old is the man?
+
+A boy’s age is half his sister’s age. The sister is 16. How old is the boy?
+
+A father is 3 times as old as his daughter. The daughter is 12. How old is the father?
+
+A mother is 15 years older than her son. The son is 20. How old is the mother?
+
+A man is 22 years older than his brother. The brother is 18. How old is the man?
+
+A boy is 6 years younger than his cousin. The cousin is 14. How old is the boy?
+
+A father is 4 times his son’s age. The son is 9. How old is the father?
+
+A woman is 11 years older than her sister. The sister is 19. How old is the woman?
+
+A boy’s age plus his father’s age is 52. The father is 40. How old is the boy?
+
+A mother is 3 times as old as her child. The child is 8. How old is the mother?
+
+A man is 16 years older than his cousin. The cousin is 24. How old is the man?
+
+A father’s age is double his son’s age plus 10. The son is 10. How old is the father?
+
+A boy is 5 years younger than his brother. The brother is 21. How old is the boy?
+
+A mother is 12 years older than her daughter. The daughter is 18. How old is the mother?
+
+A father is 30 years older than his son. The son is 10. How old is the father?
+
+A man is 9 years older than his wife. The wife is 23. How old is the man?
+
+A child is half as old as his father. The father is 34. How old is the child?
+
+A boy is 7 years younger than his sister. The sister is 20. How old is the boy?
+
+A father is 6 times his son’s age. The son is 4. How old is the father?
+
+A mother is 18 years older than her child. The child is 12. How old is the mother?
+
+A man is 3 years older than his cousin. The cousin is 27. How old is the man?
+
+A boy’s age is one-sixth of his father’s age. The father is 48. How old is the boy?
+
+A father is twice as old as his daughter. The daughter is 14. How old is the father?
+
+A woman is 20 years older than her sister. The sister is 30. How old is the woman?
+
+A man is 5 years younger than his brother. The brother is 35. How old is the man?
+
+A child is 10 years younger than his mother. The mother is 40. How old is the child?
+
+A father’s age is 4 times his son’s age minus 4. The son is 8. How old is the father?
+
+A boy is 12 years younger than his cousin. The cousin is 20. How old is the boy?
+
+A mother is 2 times as old as her daughter. The daughter is 17. How old is the mother?
+
+A father and son together are 70 years old. The father is 40. How old is the son?
+
+A man is 14 years older than his wife. The wife is 26. How old is the man?
+
+A boy’s age is half of his brother’s age. The brother is 18. How old is the boy?
+
+A father is 25 years older than his daughter. The daughter is 15. How old is the father?
+
+A woman is 8 years older than her sister. The sister is 28. How old is the woman?
+
+A child is 6 years younger than his cousin. The cousin is 16. How old is the child?
+
+A father is 3 times as old as his son plus 5. The son is 10. How old is the father?
+
+A man is 10 years older than his brother. The brother is 30. How old is the man?
+
+A boy’s age is one-fourth his father’s age. The father is 44. How old is the boy?
+
+A mother is 22 years older than her child. The child is 8. How old is the mother?
+
+A man is 7 years older than his cousin. The cousin is 33. How old is the man?
+
+A father is twice his son’s age plus 6. The son is 12. How old is the father?
+
+A boy is 9 years younger than his sister. The sister is 24. How old is the boy?
+
+A woman is 16 years older than her brother. The brother is 20. How old is the woman?
+
+A child is one-third his father’s age. The father is 45. How old is the child?
+
+A father is 5 times his son’s age minus 5. The son is 9. How old is the father?
+
+A man is 18 years older than his wife. The wife is 22. How old is the man?
+
+A boy’s age plus his father’s age is 58. The father is 42. How old is the boy?
+
+A mother is 10 years older than her daughter. The daughter is 25. How old is the mother?
+
+A father is 4 times his daughter’s age. The daughter is 11. How old is the father?
+
+A man is 6 years younger than his brother. The brother is 28. How old is the man?
+
+A child is half his mother’s age. The mother is 36. How old is the child?
+
+A woman is 12 years older than her sister. The sister is 34. How old is the woman?
+
+A father is 30 years older than his son. The son is 18. How old is the father?
+
+A boy is 15 years younger than his cousin. The cousin is 25. How old is the boy?
+
+A mother is 3 times her daughter’s age plus 3. The daughter is 10. How old is the mother?
+
+A man is 9 years older than his brother. The brother is 41. How old is the man?
+
+A child is one-fourth his mother’s age. The mother is 48. How old is the child?
+
+A father is twice his son’s age plus 4. The son is 16. How old is the father?
+
+A boy is 4 years old and his father is 28. After how many years will the father be twice the son’s age?
+
+Ravi is 6 years older than Amit. If Amit is 12, how old will Ravi be after 8 years?
+
+A father was 25 years old when his son was born. How old is the son now if the father is 45?
+
+A mother is 30 years older than her daughter. If the daughter is 10, how old will the mother be after 5 years?
+
+A man is three times as old as his son. If the son is 10, how old will the man be after 10 years?
+
+Two brothers differ in age by 5 years. If the younger is 15, how old will the elder be after 10 years?
+
+A girl is half as old as her mother. If the mother is 36, how old will the girl be after 6 years?
+
+A father and son together are 60 years old. The father is 30 years older than the son. How old is the son?
+
+A man is twice as old as his wife. If the wife is 20, how old will the man be after 5 years?
+
+A boy’s age is one-third of his father’s age. If the father is 39, how old is the boy?
+
+A father is 4 times as old as his daughter. If the daughter is 5, how old will the father be after 15 years?
+
+A mother is 24 years older than her son. If the son is 12, how old was the mother when the son was born?
+
+A man is 10 years older than his brother. If the brother is 18, how old will the man be after 7 years?
+
+A father is twice his son’s age. After 10 years, the sum of their ages will be 70. How old is the son now?
+
+A boy is 8 years younger than his sister. If the sister is 22, how old will the boy be after 6 years?
+
+A man is 5 times as old as his son. If the son is 6, how old will the man be when the son is 18?
+
+A mother’s age is the sum of her two children’s ages. If the children are 10 and 14, how old is the mother?
+
+A father is 36 years old and his son is 6. After how many years will the father be three times the son’s age?
+
+A woman is 12 years older than her sister. If the sister is 20, how old will the woman be after 8 years?
+
+A boy is 7 years younger than his cousin. If the cousin is 19, how old was the boy 5 years ago?
+
+A father is 30 years older than his daughter. If the daughter is 10, how old will the father be after 10 years?
+
+A man is half as old as his father. If the father is 50, how old will the man be after 5 years?
+
+A mother is 4 times as old as her child. If the child is 7, how old will the mother be after 7 years?
+
+A father and son differ in age by 20 years. If the son is 15, how old was the father 5 years ago?
+
+A boy’s age plus his sister’s age is 30. The sister is 18. How old will the boy be after 4 years?
+
+A man is 15 years older than his wife. If the wife is 25, how old will the man be after 5 years?
+
+A child is one-fourth the age of his father. If the father is 48, how old will the child be after 4 years?
+
+A father is 3 times as old as his son. After 10 years, he will be twice as old. What is the son’s age now?
+
+A boy is 6 years younger than his brother. If the brother is 20, how old will the boy be after 6 years?
+
+A mother is 28 years older than her daughter. If the daughter is 12, how old was the mother 10 years ago?
+
+A man is 9 years older than his cousin. If the cousin is 21, how old will the man be after 9 years?
+
+A father’s age is double his son’s age plus 4. If the son is 10, how old is the father?
+
+A boy is half his sister’s age. If the sister is 16, how old will the boy be after 4 years?
+
+A woman is 20 years older than her brother. If the brother is 18, how old was the woman 6 years ago?
+
+A father is 25 years older than his son. If the son is 15, how old will the father be when the son is 25?
+
+A child is 10 years younger than his mother. If the mother is 40, how old will the child be after 5 years?
+
+A man is 6 times as old as his son. If the son is 5, how old will the man be after 10 years?
+
+A mother is twice as old as her daughter. If the daughter is 14, how old was the mother 7 years ago?
+
+A father and daughter together are 70 years old. If the father is 40, how old will the daughter be after 5 years?
+
+A boy is 4 years younger than his cousin. If the cousin is 18, how old was the boy 3 years ago?
+
+A man is 18 years older than his wife. If the wife is 22, how old will the man be after 10 years?
+
+A father is 3 times his son’s age minus 3. If the son is 11, how old is the father?
+
+A child is one-third the age of his mother. If the mother is 36, how old will the child be after 6 years?
+
+A man is 7 years older than his brother. If the brother is 23, how old was the man 5 years ago?
+
+A mother is 16 years older than her daughter. If the daughter is 14, how old will the mother be after 4 years?
+
+A father is twice as old as his son. After 15 years, their age difference will still be the same. What is the son’s age now?
+
+A boy is 9 years younger than his sister. If the sister is 27, how old will the boy be after 3 years?
+
+A man is 4 years younger than his cousin. If the cousin is 30, how old was the man 10 years ago?
+
+A mother is 5 times her child’s age. If the child is 6, how old will the mother be after 6 years?
+
+A father is 12 years older than his son. If the son is 18, how old was the father 6 years ago?
+
+A woman is half as old as her mother. If the mother is 44, how old will the woman be after 4 years?
+
+A boy is 8 years younger than his brother. If the brother is 26, how old will the boy be after 2 years?
+
+A father is 4 times his daughter’s age. After 8 years, he will be twice her age. What is the daughter’s age now?
+
+A boy is 6 years old and his father is 30. After how many years will the father be three times the son’s age?
+
+Ramesh is 8 years older than Suresh. If Suresh is 14, how old will Ramesh be after 6 years?
+
+A father was 26 years old when his son was born. How old is the son now if the father is 52?
+
+A mother is 24 years older than her daughter. If the daughter is 12, how old will the mother be after 6 years?
+
+A man is four times his son’s age. If the son is 8, how old will the man be after 8 years?
+
+Two sisters differ in age by 6 years. If the younger is 11, how old will the elder be after 5 years?
+
+A girl is one-third her mother’s age. If the mother is 45, how old will the girl be after 5 years?
+
+A father and son together are 72 years old. If the father is 36 years older than the son, how old is the son?
+
+A man is twice his wife’s age. If the wife is 24, how old will the man be after 6 years?
+
+A boy’s age is one-fourth of his father’s age. If the father is 48, how old will the boy be after 4 years?
+
+A father is five times his daughter’s age. If the daughter is 7, how old will the father be after 14 years?
+
+A mother is 21 years older than her son. If the son is 14, how old was the mother when the son was born?
+
+A man is 11 years older than his brother. If the brother is 19, how old will the man be after 9 years?
+
+A father is twice his son’s age. After 12 years, the sum of their ages will be 84. How old is the son now?
+
+A boy is 9 years younger than his sister. If the sister is 25, how old will the boy be after 7 years?
+
+A man is 6 times as old as his son. If the son is 5, how old will the man be when the son is 15?
+
+A mother’s age is equal to the sum of her two children’s ages. If the children are 12 and 18, how old is the mother?
+
+A father is 40 years old and his son is 10. After how many years will the father be twice the son’s age?
+
+A woman is 15 years older than her sister. If the sister is 18, how old will the woman be after 7 years?
+
+A boy is 5 years younger than his cousin. If the cousin is 21, how old was the boy 4 years ago?
+
+A father is 32 years older than his daughter. If the daughter is 8, how old will the father be after 10 years?
+
+A man is half as old as his father. If the father is 60, how old will the man be after 10 years?
+
+A mother is three times her child’s age. If the child is 9, how old will the mother be after 9 years?
+
+A father and son differ in age by 28 years. If the son is 14, how old was the father 6 years ago?
+
+A boy’s age plus his sister’s age is 40. If the sister is 22, how old will the boy be after 5 years?
+
+A man is 20 years older than his wife. If the wife is 30, how old will the man be after 5 years?
+
+A child is one-fifth the age of his father. If the father is 45, how old will the child be after 5 years?
+
+A father is three times his son’s age. After 15 years, he will be twice his son’s age. What is the son’s age now?
+
+A boy is 7 years younger than his brother. If the brother is 24, how old will the boy be after 7 years?
+
+A mother is 30 years older than her daughter. If the daughter is 10, how old was the mother 10 years ago?
+
+A man is 12 years older than his cousin. If the cousin is 28, how old will the man be after 8 years?
+
+A father’s age is double his son’s age plus 6. If the son is 12, how old is the father?
+
+A boy is half his sister’s age. If the sister is 18, how old will the boy be after 6 years?
+
+A woman is 22 years older than her brother. If the brother is 16, how old was the woman 8 years ago?
+
+A father is 27 years older than his son. If the son is 13, how old will the father be when the son is 23?
+
+A child is 12 years younger than his mother. If the mother is 38, how old will the child be after 4 years?
+
+A man is 7 times as old as his son. If the son is 4, how old will the man be after 6 years?
+
+A mother is twice as old as her daughter. If the daughter is 16, how old was the mother 8 years ago?
+
+A father and daughter together are 78 years old. If the father is 48, how old will the daughter be after 6 years?
+
+A boy is 6 years younger than his cousin. If the cousin is 20, how old was the boy 2 years ago?
+
+A man is 16 years older than his wife. If the wife is 24, how old will the man be after 10 years?
+
+A father is three times his son’s age plus 3. If the son is 9, how old is the father?
+
+A child is one-fourth the age of his mother. If the mother is 44, how old will the child be after 4 years?
+
+A man is 9 years older than his brother. If the brother is 27, how old was the man 7 years ago?
+
+A mother is 18 years older than her daughter. If the daughter is 12, how old will the mother be after 6 years?
+
+A father is twice as old as his son. After 20 years, their age difference will remain the same. What is the son’s age now?
+
+A boy is 10 years younger than his sister. If the sister is 30, how old will the boy be after 5 years?
+
+A man is 5 years younger than his cousin. If the cousin is 35, how old was the man 10 years ago?
+
+A mother is 6 times her child’s age. If the child is 5, how old will the mother be after 5 years?
+
+A father is 14 years older than his son. If the son is 16, how old was the father 4 years ago?
+
+A woman is half as old as her mother. If the mother is 50, how old will the woman be after 5 years?
+
+A boy is 9 years younger than his brother. If the brother is 29, how old will the boy be after 3 years?
+
+A father is 5 times his daughter’s age. After 10 years, he will be three times her age. What is the daughter’s age now?
+
+A mother is 20 years older than her child. If the child is 14, how old will the mother be after 6 years?
+
+A man is 4 years older than his cousin. If the cousin is 26, how old was the man 8 years ago?
+
+A boy’s age plus his father’s age is 64. If the father is 44, how old will the boy be after 4 years?
+
+A mother is four times her child’s age. If the child is 6, how old will the mother be after 6 years?
+
+A father is 18 years older than his son. If the son is 12, how old was the father 6 years ago?
+
+A woman is 14 years older than her sister. If the sister is 21, how old will the woman be after 7 years?
+
+A child is one-third the age of his father. If the father is 45, how old will the child be after 5 years?
+
+A father is twice his son’s age plus 8. If the son is 11, how old is the father?
+
+A boy is 11 years younger than his cousin. If the cousin is 27, how old will the boy be after 5 years?
+
+A mother is 26 years older than her daughter. If the daughter is 14, how old was the mother 6 years ago?
+
+A man is 8 years older than his brother. If the brother is 32, how old will the man be after 4 years?
+
+A child is one-sixth the age of his father. If the father is 48, how old will the child be after 6 years?
+
+A father is three times his son’s age minus 6. If the son is 12, how old is the father?
+
+A boy is 7 years younger than his sister. If the sister is 19, how old will the boy be after 3 years?
+
+A father is 32 years old and his son is 8. After how many years will the father be twice the son’s age?
+
+Rohan is 6 years older than Mohan. If Mohan is 14 today, how old will Rohan be after 4 years?
+
+A mother was 24 years old when her daughter was born. How old is the daughter now if the mother is 36?
+
+A man is 3 times as old as his son. If the son is 12, how old will the man be after 6 years?
+
+Two sisters have an age difference of 5 years. If the younger is 13, how old will the elder be after 7 years?
+
+A boy is half the age of his father. If the father is 34, how old will the boy be after 3 years?
+
+A father and son together are 54 years old. The father is 30 years older than the son. How old is the son?
+
+A woman is 10 years older than her brother. If the brother is 20, how old was the woman 5 years ago?
+
+A man is twice his wife’s age. If the wife is 25, how old will the man be after 5 years?
+
+A boy’s age is one-fourth of his father’s age. If the father is 40, how old will the boy be after 5 years?
+
+A father is 4 times as old as his daughter. If the daughter is 6, how old will the father be after 6 years?
+
+A mother is 21 years older than her son. If the son is 9, how old was the mother when the son was born?
+
+A man is 7 years older than his cousin. If the cousin is 18, how old will the man be after 5 years?
+
+A father is twice his son’s age. After 10 years, the sum of their ages will be 70. How old is the son now?
+
+A boy is 6 years younger than his sister. If the sister is 20, how old will the boy be after 4 years?
+
+A man is 5 times as old as his son. If the son is 6, how old will the man be when the son is 16?
+
+A mother’s age is equal to the sum of her two children’s ages. If the children are 8 and 12, how old is the mother?
+
+A father is 35 years old and his son is 7. After how many years will the father be three times the son’s age?
+
+A woman is 14 years older than her sister. If the sister is 16, how old will the woman be after 6 years?
+
+A boy is 5 years younger than his cousin. If the cousin is 17, how old was the boy 3 years ago?
+
+A father is 28 years older than his daughter. If the daughter is 12, how old will the father be after 8 years?
+
+A man is half the age of his father. If the father is 46, how old will the man be after 4 years?
+
+A mother is 3 times as old as her child. If the child is 8, how old will the mother be after 4 years?
+
+A father and son differ in age by 24 years. If the son is 12, how old was the father 4 years ago?
+
+A boy’s age plus his sister’s age is 34. If the sister is 19, how old will the boy be after 5 years?
+
+A man is 16 years older than his wife. If the wife is 28, how old will the man be after 2 years?
+
+A child is one-fifth the age of his father. If the father is 45, how old will the child be after 5 years?
+
+A father is 3 times his son’s age. After 12 years, he will be twice his son’s age. What is the son’s age now?
+
+A boy is 7 years younger than his brother. If the brother is 23, how old will the boy be after 5 years?
+
+A mother is 26 years older than her daughter. If the daughter is 10, how old was the mother 6 years ago?
+
+A man is 11 years older than his cousin. If the cousin is 21, how old will the man be after 7 years?
+
+A father’s age is double his son’s age plus 6. If the son is 9, how old is the father?
+
+A boy is half his sister’s age. If the sister is 18, how old will the boy be after 6 years?
+
+A woman is 20 years older than her brother. If the brother is 14, how old was the woman 4 years ago?
+
+A father is 25 years older than his son. If the son is 15, how old will the father be when the son is 25?
+
+A child is 12 years younger than his mother. If the mother is 36, how old will the child be after 4 years?
+
+A man is 6 times as old as his son. If the son is 5, how old will the man be after 5 years?
+
+A mother is twice as old as her daughter. If the daughter is 14, how old was the mother 7 years ago?
+
+A father and daughter together are 64 years old. If the father is 40, how old will the daughter be after 4 years?
+
+A boy is 4 years younger than his cousin. If the cousin is 18, how old was the boy 2 years ago?
+
+A man is 18 years older than his wife. If the wife is 24, how old will the man be after 6 years?
+
+A father is 3 times his son’s age minus 3. If the son is 11, how old is the father?
+
+A child is one-third the age of his mother. If the mother is 39, how old will the child be after 6 years?
+
+A man is 9 years older than his brother. If the brother is 25, how old was the man 5 years ago?
+
+A mother is 16 years older than her daughter. If the daughter is 12, how old will the mother be after 4 years?
+
+A father is twice as old as his son. After 14 years, their age difference will remain the same. What is the son’s age now?
+
+A boy is 8 years younger than his sister. If the sister is 26, how old will the boy be after 2 years?
+
+A man is 5 years younger than his cousin. If the cousin is 30, how old was the man 8 years ago?
+
+A mother is 6 times her child’s age. If the child is 4, how old will the mother be after 4 years?
+
+A father is 12 years older than his son. If the son is 18, how old was the father 6 years ago?
+
+A woman is half the age of her mother. If the mother is 48, how old will the woman be after 4 years?
+
+A boy is 9 years younger than his brother. If the brother is 27, how old will the boy be after 3 years?
+
+A father is 5 times his daughter’s age. After 10 years, he will be three times her age. What is the daughter’s age now?
+
+A mother is 18 years older than her child. If the child is 12, how old will the mother be after 6 years?
+
+A man is 4 years older than his cousin. If the cousin is 22, how old was the man 6 years ago?
+
+A boy’s age plus his father’s age is 58. If the father is 42, how old will the boy be after 4 years?
+
+A mother is four times her child’s age. If the child is 5, how old will the mother be after 5 years?
+
+A father is 15 years older than his son. If the son is 13, how old was the father 5 years ago?
+
+A woman is 13 years older than her sister. If the sister is 19, how old will the woman be after 6 years?
+
+A child is one-third the age of his father. If the father is 42, how old will the child be after 6 years?
+
+A father is twice his son’s age plus 8. If the son is 12, how old is the father?
+
+A boy is 10 years younger than his cousin. If the cousin is 24, how old will the boy be after 4 years?
+
+A father is 36 years old and his son is 6. After how many years will the father be three times the son’s age?
+
+Ramesh is 5 years older than Suresh. If Suresh is 17, how old will Ramesh be after 8 years?
+
+A mother was 22 years old when her daughter was born. How old is the daughter now if the mother is 40?
+
+A man is four times as old as his son. If the son is 7, how old will the man be after 7 years?
+
+Two brothers differ in age by 9 years. If the younger is 11, how old will the elder be after 5 years?
+
+A girl is one-third her mother’s age. If the mother is 39, how old will the girl be after 6 years?
+
+A father and son together are 66 years old. The father is 30 years older than the son. How old is the son?
+
+A woman is 12 years older than her brother. If the brother is 18, how old was the woman 4 years ago?
+
+A man is twice his wife’s age. If the wife is 26, how old will the man be after 4 years?
+
+A boy’s age is one-fourth of his father’s age. If the father is 44, how old will the boy be after 4 years?
+
+A father is 6 times his daughter’s age. If the daughter is 5, how old will the father be after 10 years?
+
+A mother is 20 years older than her son. If the son is 15, how old was the mother when the son was born?
+
+A man is 14 years older than his brother. If the brother is 16, how old will the man be after 6 years?
+
+A father is twice his son’s age. After 12 years, the sum of their ages will be 84. How old is the son now?
+
+A boy is 7 years younger than his sister. If the sister is 23, how old will the boy be after 5 years?
+
+A man is 5 times as old as his son. If the son is 8, how old will the man be when the son is 18?
+
+A mother’s age is equal to the sum of her two children’s ages. If the children are 9 and 15, how old is the mother?
+
+A father is 42 years old and his son is 14. After how many years will the father be twice the son’s age?
+
+A woman is 16 years older than her sister. If the sister is 20, how old will the woman be after 6 years?
+
+A boy is 6 years younger than his cousin. If the cousin is 18, how old was the boy 4 years ago?
+
+A father is 28 years older than his daughter. If the daughter is 14, how old will the father be after 6 years?
+
+A man is half the age of his father. If the father is 52, how old will the man be after 6 years?
+
+A mother is three times her child’s age. If the child is 9, how old will the mother be after 9 years?
+
+A father and son differ in age by 26 years. If the son is 13, how old was the father 5 years ago?
+
+A boy’s age plus his sister’s age is 36. If the sister is 21, how old will the boy be after 5 years?
+
+A man is 18 years older than his wife. If the wife is 27, how old will the man be after 3 years?
+
+A child is one-sixth the age of his father. If the father is 48, how old will the child be after 6 years?
+
+A father is three times his son’s age. After 15 years, he will be twice his son’s age. What is the son’s age now?
+
+A boy is 8 years younger than his brother. If the brother is 24, how old will the boy be after 4 years?
+
+A mother is 30 years older than her daughter. If the daughter is 10, how old was the mother 8 years ago?
+
+A man is 11 years older than his cousin. If the cousin is 29, how old will the man be after 5 years?
+
+A father’s age is double his son’s age plus 8. If the son is 11, how old is the father?
+
+A boy is half his sister’s age. If the sister is 20, how old will the boy be after 6 years?
+
+A woman is 22 years older than her brother. If the brother is 18, how old was the woman 6 years ago?
+
+A father is 24 years older than his son. If the son is 16, how old will the father be when the son is 26?
+
+A child is 14 years younger than his mother. If the mother is 42, how old will the child be after 4 years?
+
+A man is 7 times as old as his son. If the son is 4, how old will the man be after 6 years?
+
+A mother is twice as old as her daughter. If the daughter is 18, how old was the mother 6 years ago?
+
+A father and daughter together are 74 years old. If the father is 46, how old will the daughter be after 6 years?
+
+A boy is 5 years younger than his cousin. If the cousin is 19, how old was the boy 3 years ago?
+
+A man is 20 years older than his wife. If the wife is 22, how old will the man be after 8 years?
+
+A father is 4 times his son’s age minus 4. If the son is 10, how old is the father?
+
+A child is one-third the age of his mother. If the mother is 45, how old will the child be after 6 years?
+
+A man is 9 years older than his brother. If the brother is 31, how old was the man 7 years ago?
+
+A mother is 18 years older than her daughter. If the daughter is 14, how old will the mother be after 6 years?
+
+A father is twice as old as his son. After 18 years, their age difference will remain the same. What is the son’s age now?
+
+A boy is 10 years younger than his sister. If the sister is 28, how old will the boy be after 4 years?
+
+A man is 6 years younger than his cousin. If the cousin is 34, how old was the man 10 years ago?
+
+A mother is 5 times her child’s age. If the child is 6, how old will the mother be after 6 years?
+
+A father is 16 years older than his son. If the son is 14, how old was the father 6 years ago?
+
+A woman is half the age of her mother. If the mother is 54, how old will the woman be after 4 years?
+
+A boy is 11 years younger than his brother. If the brother is 33, how old will the boy be after 3 years?
+
+A father is 5 times his daughter’s age. After 10 years, he will be three times her age. What is the daughter’s age now?
+
+A mother is 22 years older than her child. If the child is 13, how old will the mother be after 5 years?
+
+A man is 4 years older than his cousin. If the cousin is 28, how old was the man 6 years ago?
+
+A boy’s age plus his father’s age is 62. If the father is 44, how old will the boy be after 4 years?
+
+A mother is four times her child’s age. If the child is 7, how old will the mother be after 7 years?
+
+A father is 20 years older than his son. If the son is 12, how old was the father 8 years ago?
+
+A woman is 15 years older than her sister. If the sister is 23, how old will the woman be after 7 years?
+
+A child is one-third the age of his father. If the father is 48, how old will the child be after 6 years?
+
+A father is twice his son’s age plus 10. If the son is 14, how old is the father?
+
+A boy is 12 years younger than his cousin. If the cousin is 26, how old will the boy be after 4 years?
+
+A boy’s age is 8 years less than his sister’s. The sister is 30. How old is the boy?
