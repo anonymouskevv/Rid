@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=1080, height=1920, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Live Riddles</title>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
 
 * {
   margin: 0;
@@ -15,66 +15,39 @@
 }
 
 body {
-  width: 1080px;
-  height: 1920px;
-  background: #050608;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #0a0c10, #020304);
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
 }
 
-/* Main frame */
-.stage {
-  width: 1080px;
-  height: 1920px;
-  padding: 60px;
-  display: flex;
-}
-
-/* Glass card */
-.card {
-  flex: 1;
-  background: linear-gradient(
-    180deg,
-    rgba(255,255,255,0.06),
-    rgba(255,255,255,0.02)
-  );
-  border-radius: 42px;
-  padding: 80px 70px;
+/* Responsive 9:16 container (same as first good one) */
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  aspect-ratio: 9 / 16;
+  padding: 28px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  overflow: hidden;
 }
 
-/* Animated premium border */
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 42px;
-  padding: 3px;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255,255,255,0.7),
-    transparent
-  );
-  animation: borderMove 6s linear infinite;
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-          mask-composite: exclude;
-}
-
-@keyframes borderMove {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
+/* Main card */
+.card {
+  flex: 1;
+  background: rgba(255,255,255,0.04);
+  border-radius: 26px;
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.08);
 }
 
 /* Header */
@@ -83,39 +56,37 @@ body {
 }
 
 .header h1 {
-  font-size: 92px;
-  font-weight: 900;
-  letter-spacing: 6px;
+  font-size: 3.2rem;   /* SAME SIZE FEEL AS FIRST */
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 
 .header p {
-  margin-top: 14px;
-  font-size: 30px;
+  margin-top: 6px;
+  font-size: 1.1rem;
   opacity: 0.75;
 }
 
 /* Riddle area */
-.riddle-box {
+.riddle-area {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 .riddle {
+  font-size: 3.2rem;   /* SAME AS FIRST WORKING VERSION */
   font-weight: 700;
   text-align: center;
-  line-height: 1.15;
-  max-width: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  animation: fadeUp 0.6s ease;
+  line-height: 1.3;
+  animation: fadeIn 0.6s ease;
 }
 
-@keyframes fadeUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 /* Footer */
@@ -125,45 +96,34 @@ body {
   align-items: center;
 }
 
-.label {
-  font-size: 28px;
-  opacity: 0.7;
+.notice {
+  font-size: 1rem;
+  opacity: 0.65;
 }
 
 .timer {
-  font-size: 96px;
-  font-weight: 900;
-  letter-spacing: 3px;
-}
-
-.urgent {
-  animation: pulse 1s infinite;
-}
-
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.5; }
-  100% { opacity: 1; }
+  font-size: 2.4rem;  /* SAME AS FIRST */
+  font-weight: 800;
 }
 </style>
 </head>
 
 <body>
 
-<div class="stage">
+<div class="wrapper">
   <div class="card">
 
     <div class="header">
       <h1>LIVE RIDDLES</h1>
-      <p>Think fast • Type the answer</p>
+      <p>Think fast • Type answer</p>
     </div>
 
-    <div class="riddle-box">
+    <div class="riddle-area">
       <div id="riddle" class="riddle">Loading…</div>
     </div>
 
     <div class="footer">
-      <div class="label">New riddle every 90s</div>
+      <div class="notice">New riddle every 90 seconds</div>
       <div id="timer" class="timer">01:30</div>
     </div>
 
@@ -173,52 +133,32 @@ body {
 <script>
 let riddles = [];
 const DURATION = 90;
-let timeLeft = DURATION;
+let remaining = DURATION;
 
-/* Load riddles */
 async function loadRiddles() {
   const res = await fetch('riddles.txt');
   const text = await res.text();
   riddles = text.split('\n').map(r => r.trim()).filter(Boolean);
-  nextRiddle();
+  showRiddle();
 }
 
-/* Smart font scaling */
-function nextRiddle() {
+function showRiddle() {
   const el = document.getElementById('riddle');
   const r = riddles[Math.floor(Math.random() * riddles.length)];
-  const len = r.length;
-
-  let size;
-  if (len < 40) size = 120;
-  else if (len < 70) size = 100;
-  else if (len < 110) size = 82;
-  else if (len < 160) size = 68;
-  else size = 58;
-
-  el.style.fontSize = size + "px";
   el.style.opacity = 0;
-
   setTimeout(() => {
     el.textContent = r;
     el.style.opacity = 1;
   }, 200);
-
-  timeLeft = DURATION;
+  remaining = DURATION;
 }
 
-/* Timer */
 setInterval(() => {
-  timeLeft--;
-  if (timeLeft <= 0) nextRiddle();
-
-  const m = String(Math.floor(timeLeft / 60)).padStart(2,'0');
-  const s = String(timeLeft % 60).padStart(2,'0');
-  const timerEl = document.getElementById('timer');
-  timerEl.textContent = `${m}:${s}`;
-
-  if (timeLeft <= 10) timerEl.classList.add('urgent');
-  else timerEl.classList.remove('urgent');
+  remaining--;
+  if (remaining <= 0) showRiddle();
+  const m = String(Math.floor(remaining / 60)).padStart(2, '0');
+  const s = String(remaining % 60).padStart(2, '0');
+  document.getElementById('timer').textContent = `${m}:${s}`;
 }, 1000);
 
 loadRiddles();
