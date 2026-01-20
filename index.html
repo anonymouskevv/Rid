@@ -1,178 +1,174 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>24/7 Math Riddle Live</title>  <!-- Fonts -->  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">  <style>
-    * { box-sizing: border-box; }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Live Riddle Challenge</title>
 
-    body {
-      margin: 0;
-      height: 100vh;
-      background: radial-gradient(circle at top, #222, #000 70%);
-      font-family: 'Poppins', sans-serif;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;600&display=swap');
 
-    /* Vertical 9:16 Frame */
-    .frame {
-      width: 460px;
-      height: 900px;
-      max-height: 97vh;
-      background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
-      border-radius: 42px;
-      padding: 34px 28px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      backdrop-filter: blur(24px);
-      box-shadow:
-        0 0 60px rgba(255,255,255,0.25),
-        inset 0 0 30px rgba(0,0,0,0.6);
-      animation: glowPulse 10s infinite alternate;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    @keyframes glowPulse {
-      from {
-        box-shadow:
-          0 0 40px rgba(255,255,255,0.25),
-          inset 0 0 30px rgba(0,0,0,0.6);
-      }
-      to {
-        box-shadow:
-          0 0 90px rgba(255,255,255,0.45),
-          inset 0 0 40px rgba(0,0,0,0.8);
-      }
-    }
+body {
+  height: 100vh;
+  background: radial-gradient(circle at top, #0f2027, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
 
-    /* Header */
-    .header {
-      text-align: center;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.9rem;
-      letter-spacing: 5px;
-      color: #ffffff;
-      text-shadow: 0 0 12px rgba(255,255,255,0.7);
-    }
+.container {
+  width: 90%;
+  max-width: 900px;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 24px;
+  box-shadow:
+    0 0 25px rgba(0, 255, 255, 0.25),
+    inset 0 0 30px rgba(0, 255, 255, 0.05);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: glow 4s ease-in-out infinite;
+}
 
-    .sub {
-      font-size: 0.95rem;
-      letter-spacing: 3px;
-      margin-top: 8px;
-      color: #cccccc;
-      opacity: 0.85;
-    }
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 25px rgba(0,255,255,0.25); }
+  50% { box-shadow: 0 0 45px rgba(0,255,255,0.45); }
+}
 
-    /* Riddle Box */
-    .riddle-box {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 30px;
-      font-size: 2rem;
-      font-weight: 700;
-      line-height: 1.7;
-      color: #ffffff;
-      text-shadow: 0 0 6px rgba(255,255,255,0.35);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
+.header {
+  text-align: center;
+}
 
-    /* Timer */
-    .timer {
-      text-align: center;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 4rem;
-      font-weight: 800;
-      color: #ffffff;
-      text-shadow: 0 0 18px rgba(255,255,255,0.9);
-    }
+.header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: #00fff0;
+  text-shadow: 0 0 20px rgba(0,255,240,0.6);
+}
 
-    .timer-label {
-      text-align: center;
-      font-size: 0.9rem;
-      letter-spacing: 4px;
-      margin-top: 8px;
-      color: #dddddd;
-      opacity: 0.7;
-    }
+.header p {
+  margin-top: 10px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
 
-    /* Footer */
-    .footer {
-      text-align: center;
-      font-size: 0.85rem;
-      letter-spacing: 2px;
-      color: #bbbbbb;
-      opacity: 0.7;
-      margin-top: 16px;
-    }
-  </style></head>
-<body>  <div class="frame"><div class="header">
-  LIVE MATH PUZZLES
-  <div class="sub">THINK FAST • TYPE ANSWER</div>
+.riddle-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.riddle-text {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+  text-shadow: 0 0 15px rgba(255,255,255,0.15);
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  color: #00ffd5;
+}
+
+.timer {
+  font-size: 1.2rem;
+}
+
+.blink {
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>LIVE RIDDLES</h1>
+    <p>Think fast • Type answer • Stay sharp</p>
+  </div>
+
+  <div class="riddle-box">
+    <div id="riddle" class="riddle-text">Loading riddle...</div>
+  </div>
+
+  <div class="footer">
+    <div class="blink">New riddle every 90 seconds</div>
+    <div class="timer" id="timer">01:30</div>
+  </div>
 </div>
 
-<div class="riddle-box" id="riddle">Loading puzzles…</div>
+<script>
+let riddles = [];
+let duration = 90;
+let remaining = duration;
 
-<div>
-  <div class="timer" id="timer">01:30</div>
-  <div class="timer-label">NEXT PUZZLE IN</div>
-</div>
+async function loadRiddles() {
+  const res = await fetch('riddles.txt');
+  const text = await res.text();
+  riddles = text.split('\n').map(r => r.trim()).filter(r => r.length > 0);
+  showRandomRiddle();
+}
 
-<div class="footer">New puzzle every 90 seconds • Stay & solve 👇</div>
+function showRandomRiddle() {
+  if (riddles.length === 0) return;
+  const randomIndex = Math.floor(Math.random() * riddles.length);
+  const riddleEl = document.getElementById('riddle');
+  riddleEl.style.opacity = 0;
 
-  </div>  <script>
-    const DURATION = 90;
+  setTimeout(() => {
+    riddleEl.textContent = riddles[randomIndex];
+    riddleEl.style.opacity = 1;
+  }, 300);
 
-    let timeLeft = DURATION;
-    let riddles = [];
-    let index = 0;
+  remaining = duration;
+}
 
-    const riddleEl = document.getElementById('riddle');
-    const timerEl = document.getElementById('timer');
-
-    function formatTime(sec) {
-      const m = String(Math.floor(sec / 60)).padStart(2, '0');
-      const s = String(sec % 60).padStart(2, '0');
-      return `${m}:${s}`;
+function startTimer() {
+  setInterval(() => {
+    remaining--;
+    if (remaining <= 0) {
+      showRandomRiddle();
     }
+    const min = String(Math.floor(remaining / 60)).padStart(2, '0');
+    const sec = String(remaining % 60).padStart(2, '0');
+    document.getElementById('timer').textContent = `${min}:${sec}`;
+  }, 1000);
+}
 
-    function showRiddle() {
-      riddleEl.style.opacity = 0;
-      riddleEl.style.transform = 'translateY(18px)';
+loadRiddles();
+startTimer();
+</script>
 
-      setTimeout(() => {
-        riddleEl.textContent = riddles[index];
-        riddleEl.style.opacity = 1;
-        riddleEl.style.transform = 'translateY(0)';
-        index = (index + 1) % riddles.length;
-      }, 600);
-
-      timeLeft = DURATION;
-    }
-
-    setInterval(() => {
-      timeLeft--;
-      if (timeLeft <= 0) showRiddle();
-      timerEl.textContent = formatTime(timeLeft);
-    }, 1000);
-
-    fetch('riddles.txt')
-      .then(res => res.text())
-      .then(text => {
-        riddles = text.split('\n').map(r => r.trim()).filter(Boolean);
-        if (!riddles.length) {
-          riddleEl.textContent = 'No puzzles found.';
-          return;
-        }
-        showRiddle();
-      })
-      .catch(() => {
-        riddleEl.textContent = 'Failed to load riddles.txt';
-      });
-  </script></body>
+</body>
 </html>
