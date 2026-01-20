@@ -19,20 +19,19 @@ body {
   height: 1920px;
   background: #050608;
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
   overflow: hidden;
 }
 
-/* Fixed 1080x1920 stage */
+/* Main frame */
 .stage {
   width: 1080px;
   height: 1920px;
   padding: 60px;
   display: flex;
-  flex-direction: column;
 }
 
 /* Glass card */
@@ -52,7 +51,7 @@ body {
   overflow: hidden;
 }
 
-/* Animated border */
+/* Animated premium border */
 .card::before {
   content: "";
   position: absolute;
@@ -95,7 +94,7 @@ body {
   opacity: 0.75;
 }
 
-/* Riddle */
+/* Riddle area */
 .riddle-box {
   flex: 1;
   display: flex;
@@ -105,10 +104,12 @@ body {
 }
 
 .riddle {
-  font-size: 110px;
   font-weight: 700;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.15;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   animation: fadeUp 0.6s ease;
 }
 
@@ -174,6 +175,7 @@ let riddles = [];
 const DURATION = 90;
 let timeLeft = DURATION;
 
+/* Load riddles */
 async function loadRiddles() {
   const res = await fetch('riddles.txt');
   const text = await res.text();
@@ -181,17 +183,31 @@ async function loadRiddles() {
   nextRiddle();
 }
 
+/* Smart font scaling */
 function nextRiddle() {
   const el = document.getElementById('riddle');
   const r = riddles[Math.floor(Math.random() * riddles.length)];
+  const len = r.length;
+
+  let size;
+  if (len < 40) size = 120;
+  else if (len < 70) size = 100;
+  else if (len < 110) size = 82;
+  else if (len < 160) size = 68;
+  else size = 58;
+
+  el.style.fontSize = size + "px";
   el.style.opacity = 0;
+
   setTimeout(() => {
     el.textContent = r;
     el.style.opacity = 1;
   }, 200);
+
   timeLeft = DURATION;
 }
 
+/* Timer */
 setInterval(() => {
   timeLeft--;
   if (timeLeft <= 0) nextRiddle();
@@ -201,11 +217,8 @@ setInterval(() => {
   const timerEl = document.getElementById('timer');
   timerEl.textContent = `${m}:${s}`;
 
-  if (timeLeft <= 10) {
-    timerEl.classList.add('urgent');
-  } else {
-    timerEl.classList.remove('urgent');
-  }
+  if (timeLeft <= 10) timerEl.classList.add('urgent');
+  else timerEl.classList.remove('urgent');
 }, 1000);
 
 loadRiddles();
