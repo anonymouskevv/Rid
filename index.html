@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Live Riddle Challenge</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Riddles</title>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@400;600&display=swap');
 
 * {
   margin: 0;
@@ -15,35 +15,25 @@
 }
 
 body {
+  width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle at top, #0f2027, #000000);
+  background: radial-gradient(circle at top, #0b1d2b, #000);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+  color: #fff;
 }
 
-.container {
-  width: 90%;
-  max-width: 900px;
-  height: 80%;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 24px;
-  box-shadow:
-    0 0 25px rgba(0, 255, 255, 0.25),
-    inset 0 0 30px rgba(0, 255, 255, 0.05);
-  padding: 40px;
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  aspect-ratio: 9 / 16;
+  padding: 30px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  animation: glow 4s ease-in-out infinite;
-}
-
-@keyframes glow {
-  0%, 100% { box-shadow: 0 0 25px rgba(0,255,255,0.25); }
-  50% { box-shadow: 0 0 45px rgba(0,255,255,0.45); }
 }
 
 .header {
@@ -52,37 +42,37 @@ body {
 
 .header h1 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
+  color: #00f6ff;
+  text-shadow: 0 0 25px rgba(0,255,255,0.7);
   letter-spacing: 3px;
-  color: #00fff0;
-  text-shadow: 0 0 20px rgba(0,255,240,0.6);
 }
 
 .header p {
-  margin-top: 10px;
-  font-size: 1rem;
-  opacity: 0.8;
+  margin-top: 6px;
+  font-size: 1.2rem;
+  opacity: 0.85;
 }
 
-.riddle-box {
+.riddle-area {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 
-.riddle-text {
-  font-size: 2.2rem;
-  font-weight: 600;
+.riddle {
+  font-size: 3.2rem;
+  font-weight: 700;
   text-align: center;
-  line-height: 1.4;
-  text-shadow: 0 0 15px rgba(255,255,255,0.15);
-  animation: fadeIn 1.2s ease;
+  line-height: 1.3;
+  text-shadow: 0 0 18px rgba(255,255,255,0.25);
+  animation: pop 0.8s ease;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.96); }
+@keyframes pop {
+  from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
 }
 
@@ -90,21 +80,23 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1rem;
+}
+
+.notice {
+  font-size: 1.1rem;
   color: #00ffd5;
-}
-
-.timer {
-  font-size: 1.2rem;
-}
-
-.blink {
   animation: blink 1.2s infinite;
 }
 
+.timer {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  color: #00fff0;
+  text-shadow: 0 0 15px rgba(0,255,240,0.8);
+}
+
 @keyframes blink {
-  0%, 100% { opacity: 1; }
+  0%,100% { opacity: 1; }
   50% { opacity: 0.3; }
 }
 </style>
@@ -112,62 +104,54 @@ body {
 
 <body>
 
-<div class="container">
+<div class="wrapper">
   <div class="header">
     <h1>LIVE RIDDLES</h1>
     <p>Think fast • Type answer • Stay sharp</p>
   </div>
 
-  <div class="riddle-box">
-    <div id="riddle" class="riddle-text">Loading riddle...</div>
+  <div class="riddle-area">
+    <div id="riddle" class="riddle">Loading…</div>
   </div>
 
   <div class="footer">
-    <div class="blink">New riddle every 90 seconds</div>
-    <div class="timer" id="timer">01:30</div>
+    <div class="notice">New riddle every 90 sec</div>
+    <div id="timer" class="timer">01:30</div>
   </div>
 </div>
 
 <script>
 let riddles = [];
-let duration = 90;
-let remaining = duration;
+const DURATION = 90;
+let timeLeft = DURATION;
 
 async function loadRiddles() {
   const res = await fetch('riddles.txt');
   const text = await res.text();
-  riddles = text.split('\n').map(r => r.trim()).filter(r => r.length > 0);
-  showRandomRiddle();
+  riddles = text.split('\n').map(r => r.trim()).filter(Boolean);
+  changeRiddle();
 }
 
-function showRandomRiddle() {
-  if (riddles.length === 0) return;
-  const randomIndex = Math.floor(Math.random() * riddles.length);
-  const riddleEl = document.getElementById('riddle');
-  riddleEl.style.opacity = 0;
-
+function changeRiddle() {
+  const r = riddles[Math.floor(Math.random() * riddles.length)];
+  const el = document.getElementById('riddle');
+  el.style.opacity = 0;
   setTimeout(() => {
-    riddleEl.textContent = riddles[randomIndex];
-    riddleEl.style.opacity = 1;
-  }, 300);
-
-  remaining = duration;
+    el.textContent = r;
+    el.style.opacity = 1;
+  }, 200);
+  timeLeft = DURATION;
 }
 
-function startTimer() {
-  setInterval(() => {
-    remaining--;
-    if (remaining <= 0) {
-      showRandomRiddle();
-    }
-    const min = String(Math.floor(remaining / 60)).padStart(2, '0');
-    const sec = String(remaining % 60).padStart(2, '0');
-    document.getElementById('timer').textContent = `${min}:${sec}`;
-  }, 1000);
-}
+setInterval(() => {
+  timeLeft--;
+  if (timeLeft <= 0) changeRiddle();
+  const m = String(Math.floor(timeLeft / 60)).padStart(2,'0');
+  const s = String(timeLeft % 60).padStart(2,'0');
+  document.getElementById('timer').textContent = `${m}:${s}`;
+}, 1000);
 
 loadRiddles();
-startTimer();
 </script>
 
 </body>
